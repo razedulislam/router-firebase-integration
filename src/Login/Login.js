@@ -4,7 +4,7 @@ import "./Login.css";
 
 const Login = () => {
     //custom hook use kora hoyehce useFirebase
-    const { handleSignIn } = useFirebase();
+    const { handleSignIn, handleSignOut } = useFirebase();
     return (
         <div>
             <h2 className="login-header">Please Login</h2>
